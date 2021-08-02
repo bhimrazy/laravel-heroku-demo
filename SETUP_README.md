@@ -4,5 +4,5 @@
 -   Install Heroku CLI  -> Done
 -   Push code to heroku -> Done
 -   Steup db in heroku  -> Done
--   Setup mailgun in heroku
+-   Setup Mailtrap      -> Done
 

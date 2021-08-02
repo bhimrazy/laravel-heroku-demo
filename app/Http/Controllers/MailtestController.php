@@ -10,7 +10,7 @@ class MailtestController extends Controller
     public function index(Request $request)
     {
         Mail::raw('This is sample message', function ($message) {
-            $message->to('fehisa2982@biohorta.com');
+            $message->to('contact@contact.com');
         });
     }
 }
