@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/testmail', [MailtestController::class, 'index']);
+Route::get('/hello', function () {
+    return "This is from route hello";
+});
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
